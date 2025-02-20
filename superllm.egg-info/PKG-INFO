@@ -1,3 +1,35 @@
+Metadata-Version: 2.1
+Name: superllm
+Version: 0.1.0
+Summary: Enhanced LLM capabilities through test-time compute and search algorithms
+Home-page: https://github.com/to314as/superllm
+Author: SuperLLM Contributors
+Author-email: tobias.oberkofler@lmu.de
+Classifier: Development Status :: 3 - Alpha
+Classifier: Intended Audience :: Science/Research
+Classifier: Operating System :: OS Independent
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.8
+Classifier: Programming Language :: Python :: 3.9
+Classifier: Programming Language :: Python :: 3.10
+Classifier: Topic :: Scientific/Engineering :: Artificial Intelligence
+Requires-Python: >=3.8
+Description-Content-Type: text/markdown
+License-File: LICENSE
+Requires-Dist: numpy>=1.20.0
+Requires-Dist: torch>=2.0.0
+Requires-Dist: transformers>=4.30.0
+Requires-Dist: networkx>=2.8.0
+Requires-Dist: tqdm>=4.65.0
+Requires-Dist: scipy>=1.8.0
+Requires-Dist: pandas>=1.5.0
+Provides-Extra: dev
+Requires-Dist: pytest>=7.0.0; extra == "dev"
+Requires-Dist: black>=22.0.0; extra == "dev"
+Requires-Dist: isort>=5.0.0; extra == "dev"
+Requires-Dist: flake8>=4.0.0; extra == "dev"
+Requires-Dist: mypy>=0.900; extra == "dev"
+
 # SuperLLM
 
 A powerful Python library for enhancing LLM capabilities through advanced test-time compute and search algorithms, focusing on expert human-AI co-construction.
