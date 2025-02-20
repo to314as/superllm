@@ -1,10 +1,11 @@
-Metadata-Version: 2.1
+Metadata-Version: 2.2
 Name: superllm
 Version: 0.1.0
 Summary: Enhanced LLM capabilities through test-time compute and search algorithms
 Home-page: https://github.com/to314as/superllm
 Author: SuperLLM Contributors
-Author-email: tobias.oberkofler@lmu.de
+Author-email: SuperLLM Contributors <tobias.oberkofler@lmu.de>
+License: GPLv3
 Classifier: Development Status :: 3 - Alpha
 Classifier: Intended Audience :: Science/Research
 Classifier: Operating System :: OS Independent
@@ -25,10 +26,20 @@ Requires-Dist: scipy>=1.8.0
 Requires-Dist: pandas>=1.5.0
 Provides-Extra: dev
 Requires-Dist: pytest>=7.0.0; extra == "dev"
+Requires-Dist: pytest-cov>=4.1.0; extra == "dev"
 Requires-Dist: black>=22.0.0; extra == "dev"
 Requires-Dist: isort>=5.0.0; extra == "dev"
 Requires-Dist: flake8>=4.0.0; extra == "dev"
 Requires-Dist: mypy>=0.900; extra == "dev"
+Requires-Dist: build>=1.0.0; extra == "dev"
+Requires-Dist: twine>=4.0.0; extra == "dev"
+Requires-Dist: sphinx>=7.0.0; extra == "dev"
+Requires-Dist: sphinx-rtd-theme>=1.3.0; extra == "dev"
+Requires-Dist: sphinx-autodoc-typehints>=1.25.0; extra == "dev"
+Requires-Dist: myst-parser>=2.0.0; extra == "dev"
+Dynamic: author
+Dynamic: home-page
+Dynamic: requires-python
 
 # SuperLLM
 

@@ -11,6 +11,7 @@ setup(
     description="Enhanced LLM capabilities through test-time compute and search algorithms",
     long_description=long_description,
     long_description_content_type="text/markdown",
+    license="GPLv3",
     url="https://github.com/to314as/superllm",
     packages=find_packages(),
     classifiers=[
