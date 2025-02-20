@@ -1,0 +1,90 @@
+/* Custom styles for SuperLLM documentation */
+
+/* Improve code block styling */
+.highlight {
+    background: #f8f8f8;
+    border-radius: 4px;
+}
+
+/* Better method signature styling */
+dl.method {
+    padding: 10px;
+    margin: 10px 0;
+    border-left: 3px solid #2980b9;
+    background: #f8f8f8;
+}
+
+/* Improve class styling */
+dl.class {
+    padding: 15px;
+    margin: 15px 0;
+    border: 1px solid #e1e4e5;
+    border-radius: 4px;
+}
+
+/* Better parameter list styling */
+.field-list {
+    border-left: 2px solid #e1e4e5;
+    padding-left: 10px;
+}
+
+/* Improve note and warning boxes */
+.admonition {
+    padding: 12px;
+    margin: 15px 0;
+    border-radius: 4px;
+}
+
+.admonition.note {
+    background-color: #eef7fa;
+    border-left: 4px solid #2980b9;
+}
+
+.admonition.warning {
+    background-color: #fcf3f2;
+    border-left: 4px solid #e74c3c;
+}
+
+/* Better type annotation styling */
+.annotation {
+    color: #2980b9;
+    font-weight: normal;
+}
+
+/* Improve function/method parameter styling */
+.sig-param {
+    margin-right: 5px;
+}
+
+/* Better navigation styling */
+.wy-nav-side {
+    background: #2c3e50;
+}
+
+.wy-side-nav-search {
+    background-color: #2980b9;
+}
+
+/* Improve heading styles */
+h1, h2, h3, h4, h5, h6 {
+    color: #2c3e50;
+    font-weight: 600;
+}
+
+/* Better table styling */
+table.docutils {
+    border-radius: 4px;
+    overflow: hidden;
+}
+
+table.docutils thead th {
+    background-color: #2980b9;
+    color: white;
+}
+
+/* Improve search box styling */
+.wy-side-nav-search input[type="text"] {
+    border-radius: 4px;
+    border: 1px solid #ccc;
+    padding: 8px 12px;
+} 
